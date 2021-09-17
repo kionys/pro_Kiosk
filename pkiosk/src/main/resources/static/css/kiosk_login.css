@@ -1,0 +1,87 @@
+.main_div {margin-left: 260px; margin-right: 260px; border: 1px solid #000000; height: auto; background-color: rgba(244, 253, 244, 0.966);}
+.span { border: 1px solid black; text-align: center; }
+tr{background-color: #ffffff;height: 40px;border: 1px solid black;}
+td{text-align: center;width: 900px;background-color: #ffffff;height: 50px;border: 1px solid black;}
+button{
+    width: 70px;
+    height:20px;
+    font-size:10px;
+    MARGIN: 0px 4px 4px 0px;
+    padding-left: 10px;
+    border-radius: 10%; 
+}
+.login_div_form_in{ background-color: #ffffff; width: 100%; height: 100%; }
+.login_input_div_btn{ background-color: #ffffff; width: 100%; height: 100%; }
+.title_div {
+    font-style: italic ; 
+    font-weight: bold; 
+    font-size: 1.5em;
+    line-height: 1.0em; 
+    color: navy;
+    font-family: arial;
+    background-color: rgb(255, 255, 255);
+    border: 1px solid black;
+    text-align: center;
+    padding:25px 0px 15px 0px;
+    font-size: x-large;
+    margin: 20px;  
+    height: 70px;
+}
+.jpg_div {border: 1px solid black;margin: 20px;  height: 500px;}
+.jpg_div_it{width: 100%;height: 100%;overflow: hidden;display: flex;}
+.reader_t{width: 97%;text-align: right;}
+.login{height: 700px;}
+.login_div{width: 60%; height: 45%;border: 1px solid black; float: left;margin: 20px;
+        text-align: center; }
+.login_input_div{width: 30%;height: 45%;border: 1px solid black;float: right;margin: 20px;
+        text-align: center;}
+.footer_div_in{margin-left: 18px;width: 96%;height: 300px;overflow: hidden;display: flex;}
+.img_footer{width: 100%;height: 230px;}
+.img1 {max-width: inherit;max-height: inherit;height: inherit;width: inherit;}
+.img2 {max-width: inherit;max-height: inherit;height: inherit;width: inherit;}
+
+/*버튼 : 이용권구매*/
+#ticket_btn{
+    background: rgb(0,172,238);
+    background: linear-gradient(0deg, rgba(0,172,238,1) 0%, rgba(2,126,251,1) 100%);
+    width: 80%;
+    height:120px;
+    font-size:45px;
+    MARGIN: 4px 4px 4px 4px;
+    padding-left: 10px;
+    border-radius: 3%;
+    border: none;
+}
+/*버튼 : 입실, 퇴실, 시간연장, 자리이동 등*/
+#button_login_in{ 
+    background: rgb(0,172,238);
+    background: linear-gradient(0deg, rgba(0,172,238,1) 0%, rgba(2,126,251,1) 100%);
+    line-height: 42px;
+    padding: 0;
+    width: 19%;
+    height:50%;
+    font-size:35px;
+    MARGIN: 4px 4px 4px 4px;
+    padding-left: 10px;
+    border-radius: 5%; 
+    border: none;
+    }
+.login_input_div_in{
+    height: 50%;
+    border: 1px solid black;
+    margin: 20px;
+    text-align: center;
+}
+.login_div_form_in{
+   box-sizing: border-box;
+    padding-top: 40px;
+    padding-bottom: 40px;
+    padding-left: 10px;
+    padding-right: 10px;
+    background-color: #ffffff;
+    width: 100%;
+    height: 100%;
+}
+
+
+    

@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
+    <link href="../css/kiosk_memberJoin_css.css" rel="stylesheet" type="text/css" />
+    <script>
+        //회원가입 폼 열기
+        $(document).ready(function(){
+            $(".open").on('click',function(){
+                $(".popup").show();
+                $(".dim").show();
+            });
+            $(".popup .close").on('click',function(){
+                $(this).parent().hide();
+                $(".dim").hide();
+            });
+        });//회원가입 폼 열기
+
+
+
+    </script>
+</head>
+<body>
+<!--회원가입 폼-->
+    <a href="#a" class="open">팝업열기</a>
+<div class="popup">
+    <h2>무인 스터디카페 회원가입</h2>
+    <div class="con">
+    <table class="type1">
+    <caption>
+        <details class="hide">
+            <summary>member_join</summary>
+            <!-- <div>연락처, 인증번호, 이름, 비밀번호, 비밀번호확인,약관동의</div> -->
+        </details>
+    </caption>
+    <colgroup>
+    <col style="width: 111px;">
+    <col>
+    </colgroup>
+        <tbody>
+            <tr>
+                <th><label for="txt1">연락처</label><span>＊
+                <em class="hide">필수입력</em></span></th>
+                <td>
+                    <input type="text" class="id" id="txt1" placeholder="010-1234-5678">
+                    
+                </td>
+            </tr>
+            <tr>
+                <th><label for="txt2">인증번호</label><span>＊</span></th>
+                <td><input type="text" id="txt2" placeholder="N자리"></td>
+            </tr>
+            <tr>
+                <th><label for="txt3">이름</label><span>＊
+                <em class="hide">필수입력</em></span></th>
+                <td><input type="text" id="txt3" placeholder="홍길동"></td>
+            </tr>
+            <tr>
+                <th><label for="txt4">비밀번호</label><span>＊</span></th>
+                <td><input type="password" id="txt4" placeholder="****"></td>
+            </tr>
+            <tr>
+                <th><label for="txt5">비밀번호확인</label><span>＊</span></th>
+                <td><input type="password" id="txt5" placeholder="****"></td>
+            </tr>
+        </tbody>
+        </table>
+        <div class="agree">
+            <input type="checkbox" id="chk1"><label for="chk1"><span>[필수]</span>개인정보 수집 및 이용 동의</label>
+            <a href="#" class="view">전문보기</a>
+        </div>
+</div>
+        <div class="txt_center">
+            <a href="#a" class="btn_type1">회원가입</a>
+        </div>
+        <a href="#" class="close">
+            <img src="images/close.png">
+        </a>
+</div> 
+    <div class="dim"></div>
+<!--회원가입 폼-->
+
+
+
+
+
+
+
+
+</body>
+</html>

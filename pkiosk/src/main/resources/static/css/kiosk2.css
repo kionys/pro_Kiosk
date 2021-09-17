@@ -1,0 +1,153 @@
+.main_div {margin-left: 260px; margin-right: 260px; border: 1px solid #000000; height: auto; background-color: rgba(244, 253, 244, 0.966);}
+.span {
+    border: 1px solid black;
+    text-align: center;
+}
+.login_div_form{
+    background-color: #ffffff;
+    width: 100%;
+    height: 100%;
+}
+.login_input_div_btn{
+    background-color: #ffffff;
+    width: 100%;
+    height: 100%;
+    position: relative;
+}
+.title_div {
+    font-style: italic ; 
+    font-weight: bold; 
+    font-size: 1.5em;
+    line-height: 1.0em; 
+    color: navy;
+    font-family: arial;
+    background-color: rgb(255, 255, 255);
+    border: 1px solid black;
+    text-align: center;
+    padding:25px 0px 15px 0px;
+    font-size: x-large;
+    margin: 20px;  
+    height: 30px;
+}
+.jpg_div {
+    border: 1px solid black;
+    margin: 20px;  
+    height: 500px;
+}
+.jpg_div_it{
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+    display: flex;
+}
+.reader_t{
+    width: 97%;
+    text-align: right;
+}
+.login{
+	width:100%;
+    height: 700px;
+}
+.login_div{
+    width: 60%;
+    height: 45%;
+    border: 1px solid black;
+    float: left;
+    margin: 20px;
+    text-align: center; 
+}
+.login_input_div{
+    /* width: 25%;
+    height: 32.7%;
+    border: 1px solid black;
+   	float: left;
+    position:absolute;
+    right:14.2%;
+    box-sizing:border-box;
+    margin: 20px;
+    text-align: center; */
+     width: 32.7%;
+    height: 45%;
+    border: 1px solid black;
+    float: right;
+    margin: 20px;
+    text-align: center;
+}
+.footer_div{
+    width: 100%;
+    
+    height: 100%;
+    overflow: hidden;
+    display: flex;
+}
+.img_footer{
+    width: 100%;
+    height: 230px;
+}
+.img1 {
+    max-width: inherit;
+  max-height: inherit;
+  height: inherit;
+  width: inherit;
+  }
+  .img2 {
+    max-width: inherit;
+  max-height: inherit;
+  height: inherit;
+  width: inherit;
+  }
+button{
+    width: 60px;
+    height:60px;
+    font-size:30px;
+    MARGIN: 0px 4px 4px 0px;
+    padding-left: 10px;
+    border-radius: 50%; 
+}
+#button_login{
+    
+        width: 100px;
+        height:60px;
+        font-size:30px;
+        MARGIN: 0px 4px 4px 0px;
+        padding-left: 10px;
+        border-radius: 10%; 
+    }
+.login_input_div_in{
+    width: 96%;
+    height: 45%;
+    border: 1px solid black;
+    margin: 20px;
+    text-align: center;
+}
+
+#wc{
+    height: 100%; width: 100%;
+    opacity: 1; filter: alpha(opacity=50);
+}
+#wc:hover{
+    height: 100%; width: 100%;
+    opacity: 0.4; filter: alpha(opacity=50);
+}
+.id{
+    width:50%;height:70px;font-size:30px; MARGIN: 0px 4px 4px 0px;padding-left: 10px;
+}
+.pw{
+    width:50%;height:70px;font-size:30px; MARGIN: 0px 4px 4px 0px;padding-left: 10px;
+}
+#member_btn{
+    width: 25%;height:70px;font-size:28px; MARGIN: 0px 2px 0px 0px;padding-left: 10px; color: aliceblue; background-color: rgb(160, 204, 255);border-radius: 5%;
+}
+#login_btn{
+    width: 25%;height:70px;font-size:28px; MARGIN: 0px 2px 0px 0px;padding-left: 10px; color: aliceblue; background-color: rgb(52, 82, 252);border-radius: 5%;
+}
+#out_btn{
+    width: 25%;height:70px;font-size:28px; MARGIN: 0px 2px 0px 0px;padding-left: 10px; color: aliceblue; background-color: rgb(160, 204, 255);border-radius: 5%;
+}
+.btn1{
+	width: 15%;
+}
+.btn2{
+	width: 15%;
+}
+

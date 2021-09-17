@@ -1,0 +1,40 @@
+@charset "utf-8";
+        body{
+            /* padding: 50px;*/ box-sizing: border-box; 
+        }
+        button{border-radius: 10%; width: 100px; height: 50px; font-size: 20px;}
+        #main_btn{border-radius: 10%; width: 150px; height: 70px;}
+        .btn1{display:none; border-radius: 10%; width: 150px; height: 70px;}
+        .btn2{display:none; border-radius: 10%; width: 150px; height: 70px;}
+        .btn11{display:none; border-radius: 10%; width: 150px; height: 70px;}
+        .btn22{display:none; border-radius: 10%; width: 150px; height: 70px;}
+       .popup{
+           /* display: none; */
+            position: fixed; left: 50%; top: 50%; z-index: 100; padding: 52px 60px 60px; width: 820px;
+            height: 833px; transform: translate(-50%,-50%);
+            box-sizing: border-box; background: #fff;
+        }
+        .popup h2{
+            padding: 0 0 42px; border-bottom: 3px solid #444; font-size: 36px; font-weight: normal; color: #222; text-align: center; line-height: 100%;
+        }
+        .popup .close{
+            position: absolute; right: 20px; top: 20px; width: 41px; height: 41px; background: url(../images/close.png) no-repeat;
+            
+        } 
+        .popup .con{
+            padding: 10px; border-bottom: 1px solid #e8e8e8;
+        }
+        table.type1 th span{color: #de4f41;}
+        table.type1 th span em{color: #999;}
+        table.type1 td{padding: 0 0 20px;}
+        table.type1 tr:last-child th,
+        table.type1 tr:last-child td{padding:0 0 30px;}
+        
+        
+        .btn_type1{display: inline-block; width: 170px; height: 50px; line-height: 50px; color: #fff; 
+                    background: #de4f41; text-align: center; border-radius: 3px;}
+        .txt_center{text-align: center; padding: 30px 0 0;}
+        .dim{
+            /* display: none; */
+            position: fixed; left: 0; top: 0; z-index: 99; width: 100%; height: 100%; background: rgba(0,0,0,0.5);}
+        
